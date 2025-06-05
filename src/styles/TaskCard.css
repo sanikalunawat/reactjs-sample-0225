@@ -1,0 +1,41 @@
+.task-card {
+  border: 1px solid #d0e3ff;
+  background-color: #f6faff;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.task-card:hover {
+  background-color: #e3f0ff;
+}
+
+.task-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #155fa0;
+  margin: 0;
+}
+
+.task-desc {
+  margin: 8px 0;
+  color: #444;
+}
+
+.task-status {
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.task-status.done {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.task-status.in-progress {
+  background-color: #fff3cd;
+  color: #856404;
+}
